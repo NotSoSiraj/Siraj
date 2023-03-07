@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="Home">
+    <header>
+        <div class="left">
+            <span>Siraj.</span>
+        </div>
+        <div class="center">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#sec1">Skills</a></li>
+                <li><a href="#sectionWrapperTwo">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button href="#Contact">Contact</button>
+        </div>
+
+    </header>
+    <main>
+        <div class="leftMain">
+            <h1>Hi, <br> I'm <span>S</span><span class="s2">S</span>iraj, <br> Web Developer</h1>
+            <p>Front End Developer</p>
+            <button>Contact</button>
+        </div>
+        <div class="rightMain">
+            <img src="picture.png" alt="">
+        </div>
+
+    </main>
+</section>
+   
+    <div id="blob" class="blob"></div>
+    <div id="blur" class="blur"></div>
+    <section class="sectionWrapperOne" id="sec1">
+        <div class="skills">
+        <h1>Skills</h1>
+        <div class="skillBoxes">
+            <div class="skillbox">
+                <img src="html.png" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div class="skillbox">
+                <img src="css.png" alt="">
+                <h2>CSS</h2>
+            </div>
+            <div class="skillbox">
+                <img src="javascript.png" alt="">
+                <h2>JAVASCRIPT</h2>
+            </div>
+            <div class="skillbox">
+                <img src="tailwind.png" alt="">
+                <h2>TAILWIND CSS</h2>
+            </div>
+            <div class="skillbox">
+                <img src="bootstrap.png" alt="">
+                <h2>BOOTSTRAP</h2>
+            </div>
+            <div class="skillbox">
+                <img src="react.png" alt="">
+                <h2>REACT</h2>
+
+            </div>
+            <div class="skillbox">
+                <img src="figma.png" alt="">
+                <h2>FIGMA</h2>
+            </div>
+            
+
+        </div>
+        </div>
+    </section>
+    <section id="sectionWrapperThree">
+        <h1 class="projecth1">Projects</h1>
+        <div class="projects">
+            <div class="project">
+                <div class="img">
+                    <img src="pro1.webp" alt="">
+                </div>
+                <div class="detail">
+                    <h1>URL shortening API page
+                    </h1>
+                    <p> - At Frontend Mentor</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="img">
+                    <img src="pro2.webp" alt="">
+                </div>
+                <div class="detail">
+                    <h1>Entertainment web app
+                    </h1>
+                    <p> - At Frontend Mentor</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="img">
+                    <img src="pro3.webp" alt="">
+                </div>
+                <div class="detail">
+                    <h1>Chat App Page</h1>
+                    <p> - At Frontend Mentor</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="img">
+                    <img src="pro4.webp" alt="">
+                </div>
+                <div class="detail">
+                    <h1>PayAPI multi-page website
+                    </h1>
+                    <p> - At Frontend Mentor</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="img">
+                    <img src="pro5.webp" alt="">
+                </div>
+                <div class="detail">
+                    <h1>Easy Bank Landing Page</h1>
+                    <p> - At Frontend Mentor</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="img">
+                    <img src="pro6.webp" alt="">
+                </div>
+                <div class="detail">
+                    <h1>Bookmark Landing Page</h1>
+                    <p> - At Frontend Mentor</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="Contact">
+        <h1>Contact</h1>
+        <form action="" class="form" id="form" onsubmit="sendEmail(); reset(); return false">
+           
+            <input type="name" placeholder="Name" required>
+       
+            <input type="name" placeholder="Email" required>
+            
+            <textarea name="name" id="" cols="30" rows="10" required placeholder="Yout Message Here..."></textarea>
+           <button href="#" type="submit" form="form" value="submit">Submit</button>
+        </form>
+    </section>
+    <script src="script.js">
+
+    </script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
