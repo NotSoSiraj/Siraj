@@ -615,3 +615,73 @@ main {
         height: 100vh;
     }
   }
+
+ @media only screen and (max-width: 300px) {
+    .leftMain h1 {
+        font-size: 52px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .skillBoxes {
+        padding: 70px 0px;
+    }
+
+    .form input {
+        width: 253px;
+    }
+
+    .form textarea {
+        width: 225px;
+        
+    }
+
+    .form button {
+        width: 253px;
+    }
+    .sectionWrapperOne {
+        height: 460vh;
+    }
+    #sectionWrapperThree {
+        height: 549vh;
+    }
+    .projecth1 {
+        font-size: 41px;
+        color: white;
+        text-align: center;
+    }
+    .skillbox {
+        width: 206px;
+        height: 216px;
+    }
+    .skills h1 {
+        font-size: 42px;
+        color: white;
+    }
+    .leftMain h1 {
+        font-size: 37px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .right button {
+        width: 118px;
+        height: 41px;
+    }
+    .left span {
+        font-size: 31px;
+        font-weight: 700;
+        color: white;
+    }
+
+#Contact h1 {
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+.project {
+    width: 274px;
+    height: 324px;
+}
+  }
