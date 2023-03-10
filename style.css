@@ -825,5 +825,10 @@ main {
 .leftMain h1 {
     font-size: 40px;
 }
+     
+     .detail h1 {
+    margin-left: 20px;
+    width: 79%;
+}
 
 }
