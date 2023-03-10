@@ -304,6 +304,8 @@ main {
     border-radius: 28px;
     flex-wrap: wrap;
     height: 253px;
+    position: relative;
+    z-index: 4;
     flex-direction: column;
     align-items: center;
     transition: all 0.3s ease-in-out;
@@ -316,6 +318,13 @@ main {
     transition: 0.3s ease-in-out;
     border: 1px solid #414141;
 }
+
+.skillbox:hover + .skillboxthe {
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
+
 
 .skillbox img {
     width: 129px;
@@ -534,7 +543,7 @@ main {
     }
 
     #sectionWrapperThree {
-        height: 329vh;
+       height: 170em;
     }
     .projects {
         width: 100%;
@@ -592,18 +601,22 @@ main {
 
     main {
         padding: 0;
+        
+    padding-top: 25px;
+    
         text-align: center;
         width: 100%;
         justify-content: center;
         height: 100vh;  
     }
-
+.leftMain h1 {
+    font-size: 51px;
+}
     .sectionWrapperOne {
-        height: 300vh;
+        height: 147em;
     }
-
     #sectionWrapperThree {
-        height: 316vh;
+        height: 170em;
     }
 
     
@@ -614,9 +627,10 @@ main {
     #blur {
         height: 100vh;
     }
+    
   }
 
- @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 300px) {
     .leftMain h1 {
         font-size: 52px;
         font-weight: 800;
@@ -640,10 +654,10 @@ main {
         width: 253px;
     }
     .sectionWrapperOne {
-        height: 460vh;
+        height: 129em;
     }
     #sectionWrapperThree {
-        height: 549vh;
+        height: 152em;
     }
     .projecth1 {
         font-size: 41px;
