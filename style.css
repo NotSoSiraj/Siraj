@@ -699,3 +699,131 @@ main {
     height: 324px;
 }
   }
+
+ @media only screen and (width <= 360px) {
+
+    .skillBoxes {
+        padding: 79px 60px;
+    }
+.project {
+    background: rgb(33 33 33);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    width: 290px;
+    height: 329px;
+}
+
+.project:hover {
+    transition: 0.3s ease-in-out;
+    width: 302px;
+    height: 382px;
+}
+
+#sectionWrapperThree {
+    height: 154em;
+}
+
+.sectionWrapperOne {
+    height: 134em;
+}
+.form input {
+    height: 49px;
+    padding-left: 20px;
+    font-size: 15px;
+    background-color: #212121;
+    width: 291px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    outline: none;
+}
+.form textarea {
+    width: 257px;
+    background-color: rgb(33, 33, 33);
+    outline: none;
+    border: none;
+    height: 185px;
+    font-size: 15px;
+    padding: 8px 20px;
+    color: white;
+}
+.form button {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 291px;
+    border-radius: 50px;
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    top: 10px;
+    text-align: center;
+    height: 49px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+
+
+
+
+}
+.skillbox {
+    width: 217px;
+    background-color: #111111;
+    display: flex;
+    border: 1px solid #111111;
+    border-radius: 28px;
+    flex-wrap: wrap;
+    height: 223px;
+    position: relative;
+    z-index: 4;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+
+
+.skills h1 {
+    font-size: 49px;
+    color: white;
+}
+
+
+
+
+.leftMain button {
+    width: 162px;
+    height: 43px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border-radius: 50px;
+    position: relative;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    top: 70px;
+}
+
+.leftMain h1 {
+    font-size: 40px;
+}
+
+}
