@@ -627,7 +627,19 @@ main {
     #blur {
         height: 100vh;
     }
-    
+    #Contact {
+        height: 42em;
+    }
+    footer {
+        background-color: #101010;
+        height: 200px;
+        width: 100%;
+        gap: 26px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
   }
 
   @media only screen and (max-width: 300px) {
@@ -700,7 +712,7 @@ main {
 }
   }
 
- @media only screen and (width <= 360px) {
+  @media only screen and (width <= 360px) {
 
     .skillBoxes {
         padding: 79px 60px;
@@ -825,10 +837,37 @@ main {
 .leftMain h1 {
     font-size: 40px;
 }
-     
-     .detail h1 {
-    margin-left: 20px;
-    width: 79%;
+
 }
 
+
+footer {
+    background-color: #101010;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer span {
+    font-size: 14px;
+    color: #6e6e6e;
+}
+.icons img {
+    width: 19%;
+    padding: 1px 0px 5px 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.icons img:hover {
+    width: 22%;
+    transition: 0.3s ease-in-out;
+}
+.logo span {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
 }
